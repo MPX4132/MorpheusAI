@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3303FC618FAE69A00CC355A /* OPLChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3303FC518FAE69A00CC355A /* OPLChatViewController.m */; };
+		C3303FCC18FAE76100CC355A /* OPLMainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3303FCB18FAE76100CC355A /* OPLMainMenuController.m */; };
+		C3303FD218FAE7D200CC355A /* OPLNetManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3303FD118FAE7D200CC355A /* OPLNetManagerViewController.m */; };
+		C3303FD518FAFFA900CC355A /* OPLNetServiceInspectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3303FD418FAFFA900CC355A /* OPLNetServiceInspectorViewController.m */; };
+		C3303FD818FB109500CC355A /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C3303FD718FB109500CC355A /* GCDAsyncSocket.m */; };
+		C33EAC6618FB7F57000E6918 /* OPLSimpleMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C33EAC6518FB7F57000E6918 /* OPLSimpleMessage.m */; };
+		C3CDF7E118FCBB9E004C22A5 /* OPLChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CDF7E018FCBB9E004C22A5 /* OPLChatTableViewCell.m */; };
+		C3D66DA318FA552A005707E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D66DA218FA552A005707E3 /* Foundation.framework */; };
+		C3D66DA518FA552A005707E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D66DA418FA552A005707E3 /* CoreGraphics.framework */; };
+		C3D66DA718FA552A005707E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D66DA618FA552A005707E3 /* UIKit.framework */; };
+		C3D66DAD18FA552A005707E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3D66DAB18FA552A005707E3 /* InfoPlist.strings */; };
+		C3D66DAF18FA552A005707E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D66DAE18FA552A005707E3 /* main.m */; };
+		C3D66DB318FA552A005707E3 /* OPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D66DB218FA552A005707E3 /* OPLAppDelegate.m */; };
+		C3D66DB618FA552A005707E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D66DB418FA552A005707E3 /* Main.storyboard */; };
+		C3D66DBB18FA552A005707E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D66DBA18FA552A005707E3 /* Images.xcassets */; };
+		C3D66DC218FA552A005707E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D66DC118FA552A005707E3 /* XCTest.framework */; };
+		C3D66DC318FA552A005707E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D66DA218FA552A005707E3 /* Foundation.framework */; };
+		C3D66DC418FA552A005707E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D66DA618FA552A005707E3 /* UIKit.framework */; };
+		C3D66DCC18FA552A005707E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3D66DCA18FA552A005707E3 /* InfoPlist.strings */; };
+		C3D66DCE18FA552A005707E3 /* MorpheusAITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D66DCD18FA552A005707E3 /* MorpheusAITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3D66DC518FA552A005707E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3D66D9718FA552A005707E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D66D9E18FA552A005707E3;
+			remoteInfo = MorpheusAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3303FC418FAE69A00CC355A /* OPLChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPLChatViewController.h; sourceTree = "<group>"; };
+		C3303FC518FAE69A00CC355A /* OPLChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPLChatViewController.m; sourceTree = "<group>"; };
+		C3303FCA18FAE76100CC355A /* OPLMainMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPLMainMenuController.h; sourceTree = "<group>"; };
+		C3303FCB18FAE76100CC355A /* OPLMainMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPLMainMenuController.m; sourceTree = "<group>"; };
+		C3303FD018FAE7D200CC355A /* OPLNetManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPLNetManagerViewController.h; sourceTree = "<group>"; };
+		C3303FD118FAE7D200CC355A /* OPLNetManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPLNetManagerViewController.m; sourceTree = "<group>"; };
+		C3303FD318FAFFA900CC355A /* OPLNetServiceInspectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPLNetServiceInspectorViewController.h; sourceTree = "<group>"; };
+		C3303FD418FAFFA900CC355A /* OPLNetServiceInspectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPLNetServiceInspectorViewController.m; sourceTree = "<group>"; };
+		C3303FD618FB109500CC355A /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		C3303FD718FB109500CC355A /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		C33EAC6418FB7F57000E6918 /* OPLSimpleMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPLSimpleMessage.h; sourceTree = "<group>"; };
+		C33EAC6518FB7F57000E6918 /* OPLSimpleMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPLSimpleMessage.m; sourceTree = "<group>"; };
+		C3CDF7DF18FCBB9E004C22A5 /* OPLChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPLChatTableViewCell.h; sourceTree = "<group>"; };
+		C3CDF7E018FCBB9E004C22A5 /* OPLChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPLChatTableViewCell.m; sourceTree = "<group>"; };
+		C3D66D9F18FA552A005707E3 /* MorpheusAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorpheusAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D66DA218FA552A005707E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3D66DA418FA552A005707E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3D66DA618FA552A005707E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3D66DAA18FA552A005707E3 /* MorpheusAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MorpheusAI-Info.plist"; sourceTree = "<group>"; };
+		C3D66DAC18FA552A005707E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3D66DAE18FA552A005707E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3D66DB018FA552A005707E3 /* MorpheusAI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MorpheusAI-Prefix.pch"; sourceTree = "<group>"; };
+		C3D66DB118FA552A005707E3 /* OPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPLAppDelegate.h; sourceTree = "<group>"; };
+		C3D66DB218FA552A005707E3 /* OPLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPLAppDelegate.m; sourceTree = "<group>"; };
+		C3D66DB518FA552A005707E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3D66DBA18FA552A005707E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3D66DC018FA552A005707E3 /* MorpheusAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorpheusAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D66DC118FA552A005707E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C3D66DC918FA552A005707E3 /* MorpheusAITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MorpheusAITests-Info.plist"; sourceTree = "<group>"; };
+		C3D66DCB18FA552A005707E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3D66DCD18FA552A005707E3 /* MorpheusAITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorpheusAITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3D66D9C18FA552A005707E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D66DA518FA552A005707E3 /* CoreGraphics.framework in Frameworks */,
+				C3D66DA718FA552A005707E3 /* UIKit.framework in Frameworks */,
+				C3D66DA318FA552A005707E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D66DBD18FA552A005707E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D66DC218FA552A005707E3 /* XCTest.framework in Frameworks */,
+				C3D66DC418FA552A005707E3 /* UIKit.framework in Frameworks */,
+				C3D66DC318FA552A005707E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C378EA12190EB96D00E22270 /* Socket Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				C3303FD618FB109500CC355A /* GCDAsyncSocket.h */,
+				C3303FD718FB109500CC355A /* GCDAsyncSocket.m */,
+			);
+			name = "Socket Wrapper";
+			sourceTree = "<group>";
+		};
+		C3D66D9618FA552A005707E3 = {
+			isa = PBXGroup;
+			children = (
+				C3D66DA818FA552A005707E3 /* MorpheusAI */,
+				C3D66DC718FA552A005707E3 /* MorpheusAITests */,
+				C3D66DA118FA552A005707E3 /* Frameworks */,
+				C3D66DA018FA552A005707E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3D66DA018FA552A005707E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3D66D9F18FA552A005707E3 /* MorpheusAI.app */,
+				C3D66DC018FA552A005707E3 /* MorpheusAITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3D66DA118FA552A005707E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3D66DA218FA552A005707E3 /* Foundation.framework */,
+				C3D66DA418FA552A005707E3 /* CoreGraphics.framework */,
+				C3D66DA618FA552A005707E3 /* UIKit.framework */,
+				C3D66DC118FA552A005707E3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3D66DA818FA552A005707E3 /* MorpheusAI */ = {
+			isa = PBXGroup;
+			children = (
+				C378EA12190EB96D00E22270 /* Socket Wrapper */,
+				C3D66DB118FA552A005707E3 /* OPLAppDelegate.h */,
+				C3D66DB218FA552A005707E3 /* OPLAppDelegate.m */,
+				C3D66DB418FA552A005707E3 /* Main.storyboard */,
+				C3CDF7DF18FCBB9E004C22A5 /* OPLChatTableViewCell.h */,
+				C3CDF7E018FCBB9E004C22A5 /* OPLChatTableViewCell.m */,
+				C3303FD318FAFFA900CC355A /* OPLNetServiceInspectorViewController.h */,
+				C3303FD418FAFFA900CC355A /* OPLNetServiceInspectorViewController.m */,
+				C3303FCA18FAE76100CC355A /* OPLMainMenuController.h */,
+				C3303FCB18FAE76100CC355A /* OPLMainMenuController.m */,
+				C3303FC418FAE69A00CC355A /* OPLChatViewController.h */,
+				C3303FC518FAE69A00CC355A /* OPLChatViewController.m */,
+				C33EAC6418FB7F57000E6918 /* OPLSimpleMessage.h */,
+				C33EAC6518FB7F57000E6918 /* OPLSimpleMessage.m */,
+				C3303FD018FAE7D200CC355A /* OPLNetManagerViewController.h */,
+				C3303FD118FAE7D200CC355A /* OPLNetManagerViewController.m */,
+				C3D66DBA18FA552A005707E3 /* Images.xcassets */,
+				C3D66DA918FA552A005707E3 /* Supporting Files */,
+			);
+			name = MorpheusAI;
+			path = MorpheusAI;
+			sourceTree = "<group>";
+		};
+		C3D66DA918FA552A005707E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3D66DAA18FA552A005707E3 /* MorpheusAI-Info.plist */,
+				C3D66DAB18FA552A005707E3 /* InfoPlist.strings */,
+				C3D66DAE18FA552A005707E3 /* main.m */,
+				C3D66DB018FA552A005707E3 /* MorpheusAI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3D66DC718FA552A005707E3 /* MorpheusAITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3D66DCD18FA552A005707E3 /* MorpheusAITests.m */,
+				C3D66DC818FA552A005707E3 /* Supporting Files */,
+			);
+			name = MorpheusAITests;
+			path = MorpheusAITests;
+			sourceTree = "<group>";
+		};
+		C3D66DC818FA552A005707E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3D66DC918FA552A005707E3 /* MorpheusAITests-Info.plist */,
+				C3D66DCA18FA552A005707E3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3D66D9E18FA552A005707E3 /* MorpheusAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D66DD118FA552A005707E3 /* Build configuration list for PBXNativeTarget "MorpheusAI" */;
+			buildPhases = (
+				C3D66D9B18FA552A005707E3 /* Sources */,
+				C3D66D9C18FA552A005707E3 /* Frameworks */,
+				C3D66D9D18FA552A005707E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorpheusAI;
+			productName = MorpheusAI;
+			productReference = C3D66D9F18FA552A005707E3 /* MorpheusAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3D66DBF18FA552A005707E3 /* MorpheusAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D66DD418FA552A005707E3 /* Build configuration list for PBXNativeTarget "MorpheusAITests" */;
+			buildPhases = (
+				C3D66DBC18FA552A005707E3 /* Sources */,
+				C3D66DBD18FA552A005707E3 /* Frameworks */,
+				C3D66DBE18FA552A005707E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3D66DC618FA552A005707E3 /* PBXTargetDependency */,
+			);
+			name = MorpheusAITests;
+			productName = MorpheusAITests;
+			productReference = C3D66DC018FA552A005707E3 /* MorpheusAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3D66D9718FA552A005707E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MPX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Matias Barcenas";
+				TargetAttributes = {
+					C3D66DBF18FA552A005707E3 = {
+						TestTargetID = C3D66D9E18FA552A005707E3;
+					};
+				};
+			};
+			buildConfigurationList = C3D66D9A18FA552A005707E3 /* Build configuration list for PBXProject "MorpheusAI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3D66D9618FA552A005707E3;
+			productRefGroup = C3D66DA018FA552A005707E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3D66D9E18FA552A005707E3 /* MorpheusAI */,
+				C3D66DBF18FA552A005707E3 /* MorpheusAITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3D66D9D18FA552A005707E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D66DBB18FA552A005707E3 /* Images.xcassets in Resources */,
+				C3D66DAD18FA552A005707E3 /* InfoPlist.strings in Resources */,
+				C3D66DB618FA552A005707E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D66DBE18FA552A005707E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D66DCC18FA552A005707E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3D66D9B18FA552A005707E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CDF7E118FCBB9E004C22A5 /* OPLChatTableViewCell.m in Sources */,
+				C3D66DB318FA552A005707E3 /* OPLAppDelegate.m in Sources */,
+				C33EAC6618FB7F57000E6918 /* OPLSimpleMessage.m in Sources */,
+				C3303FD518FAFFA900CC355A /* OPLNetServiceInspectorViewController.m in Sources */,
+				C3303FD218FAE7D200CC355A /* OPLNetManagerViewController.m in Sources */,
+				C3D66DAF18FA552A005707E3 /* main.m in Sources */,
+				C3303FCC18FAE76100CC355A /* OPLMainMenuController.m in Sources */,
+				C3303FD818FB109500CC355A /* GCDAsyncSocket.m in Sources */,
+				C3303FC618FAE69A00CC355A /* OPLChatViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D66DBC18FA552A005707E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D66DCE18FA552A005707E3 /* MorpheusAITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3D66DC618FA552A005707E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3D66D9E18FA552A005707E3 /* MorpheusAI */;
+			targetProxy = C3D66DC518FA552A005707E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3D66DAB18FA552A005707E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D66DAC18FA552A005707E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3D66DB418FA552A005707E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D66DB518FA552A005707E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3D66DCA18FA552A005707E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D66DCB18FA552A005707E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3D66DCF18FA552A005707E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3D66DD018FA552A005707E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3D66DD218FA552A005707E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MorpheusAI/MorpheusAI-Prefix.pch";
+				INFOPLIST_FILE = "MorpheusAI/MorpheusAI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = MorpheusAI;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3D66DD318FA552A005707E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MorpheusAI/MorpheusAI-Prefix.pch";
+				INFOPLIST_FILE = "MorpheusAI/MorpheusAI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = MorpheusAI;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C3D66DD518FA552A005707E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MorpheusAI.app/MorpheusAI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MorpheusAI/iMorpheusAI-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MorpheusAITests/MorpheusAITests-Info.plist";
+				PRODUCT_NAME = MorpheusAITests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C3D66DD618FA552A005707E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MorpheusAI.app/MorpheusAI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MorpheusAI/iMorpheusAI-Prefix.pch";
+				INFOPLIST_FILE = "MorpheusAITests/MorpheusAITests-Info.plist";
+				PRODUCT_NAME = MorpheusAITests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3D66D9A18FA552A005707E3 /* Build configuration list for PBXProject "MorpheusAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D66DCF18FA552A005707E3 /* Debug */,
+				C3D66DD018FA552A005707E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D66DD118FA552A005707E3 /* Build configuration list for PBXNativeTarget "MorpheusAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D66DD218FA552A005707E3 /* Debug */,
+				C3D66DD318FA552A005707E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D66DD418FA552A005707E3 /* Build configuration list for PBXNativeTarget "MorpheusAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D66DD518FA552A005707E3 /* Debug */,
+				C3D66DD618FA552A005707E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3D66D9718FA552A005707E3 /* Project object */;
+}
