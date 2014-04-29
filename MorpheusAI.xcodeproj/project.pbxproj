@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C32C6CDE190F49DF00EB0E37 /* OPLNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32C6CDD190F49DF00EB0E37 /* OPLNavigationViewController.m */; };
 		C3303FC618FAE69A00CC355A /* OPLChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3303FC518FAE69A00CC355A /* OPLChatViewController.m */; };
 		C3303FCC18FAE76100CC355A /* OPLMainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3303FCB18FAE76100CC355A /* OPLMainMenuController.m */; };
 		C3303FD218FAE7D200CC355A /* OPLNetManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3303FD118FAE7D200CC355A /* OPLNetManagerViewController.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C32C6CDC190F49DF00EB0E37 /* OPLNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPLNavigationViewController.h; sourceTree = "<group>"; };
+		C32C6CDD190F49DF00EB0E37 /* OPLNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPLNavigationViewController.m; sourceTree = "<group>"; };
 		C3303FC418FAE69A00CC355A /* OPLChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPLChatViewController.h; sourceTree = "<group>"; };
 		C3303FC518FAE69A00CC355A /* OPLChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPLChatViewController.m; sourceTree = "<group>"; };
 		C3303FCA18FAE76100CC355A /* OPLMainMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPLMainMenuController.h; sourceTree = "<group>"; };
@@ -143,6 +146,8 @@
 				C3D66DB118FA552A005707E3 /* OPLAppDelegate.h */,
 				C3D66DB218FA552A005707E3 /* OPLAppDelegate.m */,
 				C3D66DB418FA552A005707E3 /* Main.storyboard */,
+				C32C6CDC190F49DF00EB0E37 /* OPLNavigationViewController.h */,
+				C32C6CDD190F49DF00EB0E37 /* OPLNavigationViewController.m */,
 				C3CDF7DF18FCBB9E004C22A5 /* OPLChatTableViewCell.h */,
 				C3CDF7E018FCBB9E004C22A5 /* OPLChatTableViewCell.m */,
 				C3303FD318FAFFA900CC355A /* OPLNetServiceInspectorViewController.h */,
@@ -158,7 +163,6 @@
 				C3D66DBA18FA552A005707E3 /* Images.xcassets */,
 				C3D66DA918FA552A005707E3 /* Supporting Files */,
 			);
-			name = MorpheusAI;
 			path = MorpheusAI;
 			sourceTree = "<group>";
 		};
@@ -179,7 +183,6 @@
 				C3D66DCD18FA552A005707E3 /* MorpheusAITests.m */,
 				C3D66DC818FA552A005707E3 /* Supporting Files */,
 			);
-			name = MorpheusAITests;
 			path = MorpheusAITests;
 			sourceTree = "<group>";
 		};
@@ -298,6 +301,7 @@
 				C3D66DAF18FA552A005707E3 /* main.m in Sources */,
 				C3303FCC18FAE76100CC355A /* OPLMainMenuController.m in Sources */,
 				C3303FD818FB109500CC355A /* GCDAsyncSocket.m in Sources */,
+				C32C6CDE190F49DF00EB0E37 /* OPLNavigationViewController.m in Sources */,
 				C3303FC618FAE69A00CC355A /* OPLChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
